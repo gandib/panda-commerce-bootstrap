@@ -1,3 +1,27 @@
 .info-background {
     background-color: #fceae8;
 }
+
+.category-bg-watch {
+    background-color: #ffa500;
+}
+
+.category-bg-bag {
+    background-color: #da70d6;
+}
+
+.category-bg-shoe {
+    background-color: #00f;
+}
+
+.slider-price {
+    color: #ff3383;
+}
+
+.buy-now {
+    background-color: #ff3383;
+}
+
+.subscribe-background {
+    background-color: #fceae8;
+}
