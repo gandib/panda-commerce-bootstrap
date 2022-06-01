@@ -130,11 +130,11 @@
         </section>
         <!-- Shoes section  -->
         <section class="container" id="shoes">
-            <h2>Shoes</h2>
+            <h2 class="h2-header">Shoes</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
                     <div class="card border-0 shadow-lg h-100">
-                        <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                        <img id="img-1" src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Supply 350</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
@@ -142,7 +142,7 @@
                         </div>
                         <div class="m-4">
                             <h5>$120</h5>
-                            <div class="btn buy-now text-white">Buy Now >></div>
+                            <div id="btn-n" onclick="show()" class="btn buy-now text-white">Buy Now >></div>
                         </div>
                     </div>
                 </div>
@@ -178,7 +178,7 @@
         </section>
         <!-- Bag section -->
         <section class="container my-5" id="backpack">
-            <h2>Backpack</h2>
+            <h2 class="h2-header">Backpack</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
                     <div class="card border-0 shadow-lg h-100">
@@ -232,9 +232,9 @@
             <div>
                 <h1>LET'S STAY IN TOUCH</h1>
                 <p>Get updates on sales, specials and more</p>
-                <input class="form-control" type="text" placeholder="Your Email">
+                <input id="email-confirm" class="form-control" type="text" placeholder="Your Email">
                 <br>
-                <button class="btn buy-now text-white">SUBMIT</button>
+                <button id="email-btn" disabled class="btn buy-now text-white">SUBMIT</button>
             </div>
         </section>
     </main>
@@ -246,10 +246,10 @@
     <!-- Bootstrap Script -->
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
 
-
+    <script src="apply.js"></script>
 </body>
 
 </html>
